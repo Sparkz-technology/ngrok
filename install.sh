@@ -26,12 +26,12 @@ else
 echo -e "\033[92m[•] \033[93mInstalling the requirements... "
 #require
 echo -e "\033[92m"
-figlet "ngrok"
+toilet -f mono12 ngrok
 echo -e "\033[94m"
-figlet "for"
+toilet -f mono12 For
 echo -e "\033[95m"
 figlet $arch
-wget https://github.com/Ahmedmahmed8a/ngrok-arm/raw/master/ngrok-arm
+wget https://github.com/sparkz-technology/ngrok-arm/raw/master/ngrok-arm
 mv ngrok-arm ngrok
 chmod 777 ngrok
 fi
