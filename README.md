@@ -17,3 +17,4 @@ git clone https://github.com/sparkz-technology/ngrok.git
 cd ngrok
 bash sparkz.sh
 ```
+> sutharsan_sparkz
