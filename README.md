@@ -1,4 +1,4 @@
-## ngrok
+## Ngrok
 
 ngrok port forwarding
 ```
