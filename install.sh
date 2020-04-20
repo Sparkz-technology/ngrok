@@ -14,11 +14,11 @@ then
 echo -e "\033[92m[•] \033[93mInstalling the requirements... "
 #require
 echo -e "\033[92m"
-toilet -f mono12 ngrok
+#toilet -f mono12 ngrok
 echo -e "\033[94m"
-toilet -f mono12 For
+#toilet -f mono12 For
 echo -e "\033[95m"
-toilet $arch
+toilet -f mono12 ngrok
 wget "https://bin.equinox.io/a/nmkK3DkqZEB/ngrok-2.2.8-linux-arm64.zip"
 unzip "ngrok-2.2.8-linux-arm64.zip"
 chmod 777 ngrok
@@ -28,9 +28,9 @@ echo -e "\033[92m[•] \033[93mInstalling the requirements... "
 echo -e "\033[92m"
 toilet -f mono12 ngrok
 echo -e "\033[94m"
-toilet -f mono12 For
+#toilet -f mono12 For
 echo -e "\033[95m"
-figlet $arch
+#figlet $arch
 wget https://github.com/sparkz-technology/ngrok-arm/raw/master/ngrok-arm
 mv ngrok-arm ngrok
 chmod 777 ngrok
