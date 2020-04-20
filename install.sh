@@ -11,7 +11,7 @@ arch=$(dpkg --print-architecture)
 #	eval $update
 #	eval $upgrade
 #	eval $iwget
-}
+#}
 sleep 5
 if [ $arch == 'aarch64' ]
 then 
