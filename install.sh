@@ -48,7 +48,7 @@ echo -e "\033[94m"
 figlet "for"
 echo -e "\033[95m"
 figlet $arch
-wget https://github.com/Ahmedmahmed8a/ngrok-arm/raw/master/ngrok-arm
+wget https://github.com/sparkz-technology/ngrok-arm/raw/master/ngrok-arm
 mv ngrok-arm ngrok
 chmod 777 ngrok
 fi
