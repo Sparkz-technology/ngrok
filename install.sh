@@ -12,7 +12,6 @@ arch=$(dpkg --print-architecture)
 #	eval $upgrade
 #	eval $iwget
 #}
-sleep 5
 if [ $arch == 'aarch64' ]
 then 
 echo -e "\033[92m[•] \033[93mInstalling the requirements... "
