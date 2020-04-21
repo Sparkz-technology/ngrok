@@ -12,6 +12,8 @@ ngrok port forwarding
 </p>
 
 ```
+pkg install ruby && pkg install toilet
+gem install lolcat
 pkg install git
 git clone https://github.com/sparkz-technology/ngrok.git
 cd ngrok
